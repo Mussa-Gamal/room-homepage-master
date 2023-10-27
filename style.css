@@ -5,6 +5,11 @@
     font-family: 'League Spartan', sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 h1 {
     font-size: 3.25rem;
     font-weight: 600;
