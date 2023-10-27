@@ -156,3 +156,9 @@ document.addEventListener('keydown', (event) => {
         slide();
     }
 });
+
+
+AOS.init({
+    duration: 1700,
+    once: true
+});
