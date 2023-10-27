@@ -10,12 +10,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
 	<!---------- CSS FILES ---------->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<title>Frontend Mentor | Room homepage</title>
 </head>
 <body>
-
 	<!---------- NAVBAR ---------->
 
 	<nav class="position-fixed w-100 d-flex align-items-center justify-content-sm-start justify-content-center gap-sm-5 gap-0">
@@ -43,7 +43,7 @@
 
 		<section class="slider-hero">
 			<div class="row m-0 p-0">
-				<div class="image-container col-xl-7 col-lg-6 col-12 m-0 p-0">
+				<div class="image-container col-xl-7 col-lg-6 col-12 m-0 p-0" data-aos="zoom-out">
 					<img class="w-100 h-100 object-fit-cover user-select-none" src="images/desktop-image-hero-1.jpg" alt="" draggable="false">
 	
 					<div class="arrows image-container-position-arrows">
@@ -56,7 +56,7 @@
 					</div>
 				</div>
 		
-				<div class="parent-hero-content col p-0">
+				<div class="parent-hero-content col p-0" data-aos="fade-left">
 					<div class="hero-content p-0">
 						<h1 class="mb-4">Discover innovative ways to decorate</h1>
 						<p class="mb-4">We provide unmatched quality, comfort, and style for property owners across the country. 
@@ -68,7 +68,7 @@
 						</a>
 						
 						<!-- Navigation arrows -->
-						<div class="arrows hero-content-position-arrows">
+						<div class="arrows hero-content-position-arrows" data-aos="fade-up" data-aos-delay="1000">
 							<div class="left">
 								<svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg>
 							</div>
@@ -85,11 +85,11 @@
 
 		<section class="about">
 			<div class="row m-0 p-0">		
-				<div class="image-container m-0 p-0 col-lg col-12">
+				<div class="image-container m-0 p-0 col-lg col-12" data-aos="fade-right" data-aos-delay="1500">
 					<img class="w-100 h-100 object-fit-cover user-select-none" src="images/image-about-dark.jpg" alt="" draggable="false">
 				</div>
 		
-				<div class="about-content col-lg-4 col-12 m-0 p-0 mx-lg-5 my-auto">
+				<div class="about-content col-lg-4 col-12 m-0 p-0 mx-lg-5 my-auto" data-aos="fade-up" data-aos-delay="2000" data-aos-anchor-placement="center-bottom">
 					<h2 class="mb-3">About our furniture</h2>
 					<p class="mb-0">Our multifunctional collection blends design and function to suit your individual taste.
 					   Make each room unique, or pick a cohesive theme that best express your interests and what
@@ -97,7 +97,7 @@
 					   or anything in between. Product specialists are available to help you create your dream space.</p>
 				</div>
 		
-				<div class="image-container m-0 p-0 col-lg col-12">
+				<div class="image-container m-0 p-0 col-lg col-12" data-aos="fade-left" data-aos-delay="1500">
 					<img class="w-100 h-100 object-fit-cover user-select-none" src="images/image-about-light.jpg" alt="" draggable="false">
 				</div>
 			</div>
@@ -113,6 +113,7 @@
 
 	<!---------- JS FILES ---------->
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 	<script src="bootstrap.bundle.min.js"></script>
 	<script src="script.js"></script>
 </body>
