@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-webpage-using-bootstrap-5-and-css-flexbox-sEB-qqnblW)
-- Live Site URL: (https://mussa-gamal.github.io/room-homepage-master/)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-webpage-using-bootstrap-5-and-css-flexbox-sEB-qqnblW
+- Live Site URL: https://mussa-gamal.github.io/room-homepage-master/
 
 ## My process
 
